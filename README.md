@@ -70,7 +70,7 @@ making retention of this segment the single highest-priority business action.
    ```
 2. Install dependencies
    ```
-   pip install pandas numpy matplotlib scikit-learn openpyxl
+   pip install -r requirements.txt
    ```
 3. Download the dataset from UCI or Kaggle and place `Online Retail.xlsx`
    in the root folder
@@ -82,6 +82,7 @@ customer-segmentation-rfm/
 │
 ├── Customer_Segmentation.ipynb   # Main analysis notebook
 ├── README.md                     # Project documentation
+├── requirements.txt              # Python dependencies
 └── .gitignore                    # Excludes dataset file
 ```
 
